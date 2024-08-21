@@ -1,6 +1,7 @@
 # Bottom-up: with a loop and memoization
 #
 
+
 prices = [0,1,1,3,5,5,7,9,8,10,10]
 best_cut_price = []
 m = len(prices)
