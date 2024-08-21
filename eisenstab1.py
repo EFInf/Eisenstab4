@@ -13,5 +13,5 @@ def best_cut(n):
                 best = besti+prices[n-i]
     return best
 
-for i in range(11):
+for i in range(len(prices)):
     print(f"Best cut for rod of length {i}: {best_cut(i)}")
